@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV page</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/avatar.png" alt="my photo" class="avatar">
+        <h1 class="header__title">Dmitry Ko | CV</h1>
+        <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+
+            <details>
+                <summary>Skills list: </summary>
+
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. JavaScript</li>
+                    <li>4. React</li>
+                    <li>5. Typescript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4> Short article about me </h4>
+
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Предупреждал,
+                подзаголовок. Реторический моей диких взобравшись предложения на берегу выйти, о дал назад великий,
+                рукопись переписали даже до буквоград своего необходимыми, рот возвращайся прямо маленький вдали свой.
+                Гор, оксмокс? Прямо, власти деревни что пояс снова щеке выйти все вскоре предложения страну.
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3> Gallery </h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <iframe src="https://www.youtube.com/embed/bxl_qi72tMU" title="HTML для начинающих за 33 минуты"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4> My hobbies: </h4>
+
+            <details>
+                <summary>Hobbies</summary>
+
+                <ul>
+                    <li>Skiing</li>
+                    <li>Video editing</li>
+                    <li>Audio books</li>
+                </ul>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>IT school 1</td>
+                        <td>Angular Dev</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>IT school 2</td>
+                        <td>React Dev</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Действия - это единственный путь к успеху
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>Required fields: </legend>
+
+                    <label for="firstName-id">First Name: </label>
+                    <input type="text" name="firstName" id="firstName-id" required class="form__control" placeholder="first name">
+
+                    <label for="lastName-id">Last Name: </label>
+                    <input type="text" name="lastName" id="lastName-id" required class="form__control" placeholder="last name">
+
+                    <label for="email-id">Email: </label>
+                    <input type="email" name="email" id="email-id" required class="form__control" placeholder="email">
+                </fieldset>
+
+                <br>
+                <textarea 
+                name="questions"
+                cols="30" 
+                rows="7" 
+                class="form__control control--text"
+                placeholder="your questions"></textarea>
+
+                <button type="submit" class="form__submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <hr class="separator">
+
+    <footer>
+        <address>
+            <a href="mailto:it@mail.ru" class="contacts__link">it@mail.ru</a>
+            <br><br>
+            <a href="tel:+998941234567" class="contacts__link">+998941234567</a>
+        </address>
+    </footer>
+</body>
+
+</html>
